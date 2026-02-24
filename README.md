@@ -5,11 +5,13 @@
 用法：
 ## V 0.0.1
 
-用法: tts <文本内容> <语言名称>
-      tts <文本内容>
+用法: 
+- tts <文本内容> <语言名称>
+- tts <文本内容>
 
-示例: tts "你好，世界" zh-CN
-      tts "Hola, mundo" es-ES
-      tts "Hola, mundo"
+示例: 
+- tts "你好，世界" zh-CN
+- tts "Hola, mundo" es-ES
+- tts "Hola, mundo"
 
 语言名称缺省 es-ES 西班牙语
