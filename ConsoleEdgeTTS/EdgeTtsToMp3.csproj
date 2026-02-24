@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0-windows</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PublishAot>true</PublishAot>
+        <InvariantGlobalization>true</InvariantGlobalization> 
+        <AssemblyName>tts</AssemblyName>
+		<Version>0.0.1</Version>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Copyright>DensenInformatica</Copyright>
+		<RepositoryType>git</RepositoryType>
+		<Authors>Alex Chow</Authors>
+		<Company>Densen Informatica</Company>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/densen2014/Densen.Freesql</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/densen2014/Densen.Freesql</RepositoryUrl>
+		<PackageTags>Edge的语音合成引擎转mp3文件的程序，使用.net10发布为AOT,release仅5MB, 仅供于学习交流</PackageTags>
+	</PropertyGroup> 
+
+    <ItemGroup>
+      <ProjectReference Include="..\Edge_tts_sharp\Edge_tts_sharp.csproj" />
+    </ItemGroup>
+
+</Project>

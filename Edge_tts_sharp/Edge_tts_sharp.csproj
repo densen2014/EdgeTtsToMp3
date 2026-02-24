@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Version>1.1.5</Version>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<Title>Edge_tts_sharp</Title>
+		<Authors>Entity-now</Authors>
+		<Description>
+			免费调用微软Edge浏览器文本转语音接口
+		</Description>
+		<PackageProjectUrl></PackageProjectUrl>
+		<RepositoryUrl></RepositoryUrl>
+		<PackageReadmeFile></PackageReadmeFile>
+		<PackageIcon></PackageIcon>
+		<RepositoryType>git</RepositoryType>
+		<UserSecretsId>099b9a5e-4ebd-4672-8871-9986815c01f8</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Source\VoiceList.json" />
+	</ItemGroup> 
+
+	<ItemGroup>
+		<EmbeddedResource Include="Source\VoiceList.json">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>
