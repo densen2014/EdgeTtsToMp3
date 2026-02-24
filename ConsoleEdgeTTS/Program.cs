@@ -34,7 +34,7 @@ class Program
         }
 
         Edge_tts.Await = true;
-        var voice = Edge_tts.GetVoice().FirstOrDefault(i => i.Name.Contains(languageName));
+        var voice = Edge_tts.GetVoice().FirstOrDefault(i => i.Name.Contains(languageName) || i.ShortName.Contains(languageName)|| i.FriendlyName.Contains(languageName));
         if (voice == null)
         {
             Console.WriteLine($"未找到语言: {languageName}");
